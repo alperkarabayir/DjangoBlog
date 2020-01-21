@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{%  block content %}
+   <div class="content-section">
+        <div class="form-group">
+            <form name="search-form" method="GET" action="{% url 'blog-result' %}">
+                <fieldset class="form-group">
+                    {% csrf_token %}
+                    <input type="text" name="search" placeholder="Search" />
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+   </div>
+{% endblock content %}

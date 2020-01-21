@@ -1,0 +1,7 @@
+.venv
+*.pyc
+.vscode
+
+__pycache__
+./blog/__pycache__
+./OfficeAppCode/__pycache__
