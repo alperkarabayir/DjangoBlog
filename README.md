@@ -67,26 +67,24 @@ After you logged in, you will go to redirect to homepage, which you can see all 
 
 ## APPLICATION USAGE
 
-```
-Register: You can create a new user by filling form.
 
-Login: You can login with a user.
+***Register***: You can create a new user by filling form.
 
-Home: Homepage => You can click user's name and you will see user's all posts. In addition you can click to Topic of a post and you will see all posts belong to that Topic. If post belongs to logged user, it will activate a delete button - "just for creator of post"
+***Login***: You can login with a user.
 
-Search: Search page => after you clicked that link, you can search anything you want, it is searching users, topics and posts on the same time. 
+***Home***: Homepage => You can click user's name and you will see user's all posts. In addition you can click to Topic of a post and you will see all posts belong to that Topic. If post belongs to logged user, it will activate a delete button - "just for creator of post"
 
-New Post: You can create a new post by adding Title, Content and choosing Topic from combobox. I added 2 topics by shell to db. "Technology and Science". After you post you will see your post created.
+***Search***: Search page => after you clicked that link, you can search anything you want, it is searching users, topics and posts on the same time. 
 
-Profile: Every user can see his profile info and posts. 
+***New Post***: You can create a new post by adding Title, Content and choosing Topic from combobox. I added 2 topics by shell to db. "Technology and Science". After you post you will see your post created.
 
-Logout: For out.
+***Profile***: Every user can see his profile info and posts. 
 
-Beside that I created a webservice for getting all datas => You can go to link and see datas into browser as JSON formatted style http://127.0.0.1:8000/getallposts/ or use Postman "GET" method with link.
+***Logout***: For out.
 
-http://127.0.0.1:8000/admin/ django default admin panel. You can see models.
+Beside that I created a webservice for getting all datas => You can go to link and see datas into browser as JSON formatted style ```http://127.0.0.1:8000/getallposts/``` or use Postman "GET" method with link.
 
-```
+```http://127.0.0.1:8000/admin/``` django default admin panel. You can see models.
 
 
 With my Best Regards, I hope we can talk and work together in future as part of bigger projects. 
