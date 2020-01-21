@@ -55,11 +55,12 @@ OfficeCodeApp/         					# the application directory
 ```
 
 RUNNING APP:
-You can use run it with docker => "docker run -it -p 8000:8000 officeappcode"
+You can run it with docker => "docker run -it -p 8000:8000 officeappcode"
 Or you can run it without docker => "python manage.py runserver"
-you have to activate venv before
-you can open app.`http://127.0.0.1:8000/`
+you have to activate venv before running app.
+
 `http://127.0.0.1:8000/`
+
 
 ***IMPORTANT*** 
 In test sqlite3 db file i added 2 users ```admin:123``` and ```Alper:test12345``` You can login with this users or create a user with clicking Register link.
