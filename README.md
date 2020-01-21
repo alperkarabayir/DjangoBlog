@@ -64,6 +64,9 @@ you can open app.`http://127.0.0.1:8000/`
 ***IMPORTANT*** 
 In test sqlite3 db file i added 2 users ```admin:123``` and ```Alper:test12345``` You can login with this users or create a user with clicking Register link.
 After you logged in, you will go to redirect to homepage, which you can see all posts order by date. On the top navigator:
+
+## APPLICATION USAGE
+
 ```
 Register: You can create a new user by filling form.
 
@@ -84,7 +87,6 @@ Beside that I created a webservice for getting all datas => You can go to link a
 http://127.0.0.1:8000/admin/ django default admin panel. You can see models.
 
 ```
-***IMPORTANT***
 
 
 With my Best Regards, I hope we can talk and work together in future as part of bigger projects. 
